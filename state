@@ -1,0 +1,16 @@
+stateDiagram
+s1 : Viewing Students Table
+s2 : Viewing Student Profile
+s3 : Viewing PDF Templates
+s4 : Generating PDF
+
+[*] --> s1
+s1 --> [*]
+s2 --> [*]
+
+s1 --> s2: Click Row
+s2 --> s1: Click 'Back' Button
+s2 --> s3: Click 'Letter' Button
+s3 --> s2: Click 'Back' Button
+s3 --> s4: Select PDF Template
+s4 --> s2: Downloaded

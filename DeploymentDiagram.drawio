@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="Up1rqz5nA2WRYQa4lC9y">
+    <mxGraphModel dx="2434" dy="1981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-2" value="&lt;b&gt;Web Server (Kestrel)&lt;/b&gt;" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-1050" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-3" value="&lt;b&gt;ASP.NET Core&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-2">
+          <mxGeometry width="240" height="110" relative="1" as="geometry">
+            <mxPoint x="10" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-4" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;UniLetters.WebApi.dll&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-2">
+          <mxGeometry x="40" y="90.00070175438596" width="180" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-5" value="&lt;b&gt;Database Server (Postgres)&lt;/b&gt;" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-1025" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-7" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;SQL Database&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-5">
+          <mxGeometry x="29.995555555555555" y="49.9957894736842" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.48;entryY=1.018;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="iVgK7mc7b2vKvMZ4kr3W-2" target="iVgK7mc7b2vKvMZ4kr3W-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-350" y="-967" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-9" value="port 5432" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-10" value="Npgsql" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-11" value="&lt;b&gt;User Device&lt;/b&gt;" style="verticalAlign=top;align=left;shape=cube;size=10;direction=south;fontStyle=0;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-790" y="-790" width="610" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-12" value="&lt;b&gt;Electron&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-11">
+          <mxGeometry width="210" height="160" relative="1" as="geometry">
+            <mxPoint x="10" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-14" value="&lt;b&gt;Svelte&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-11">
+          <mxGeometry x="339.86" y="31.08" width="190.14" height="88.92" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-17" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;index.html&lt;/b&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-11">
+          <mxGeometry x="359.9951210653753" y="72.26594594594594" width="144.7457627118644" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.338;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=49.46;entryDy=190.14;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="iVgK7mc7b2vKvMZ4kr3W-11" source="iVgK7mc7b2vKvMZ4kr3W-12" target="iVgK7mc7b2vKvMZ4kr3W-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-20" value="HTTP localhost port 5173" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-11">
+          <mxGeometry x="230" y="43.52" width="100" height="28.75" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-21" value="&lt;b&gt;Chromium Engine&lt;/b&gt;" style="verticalAlign=top;align=center;shape=cube;size=10;direction=south;html=1;boundedLbl=1;spacingLeft=5;whiteSpace=wrap;" vertex="1" parent="iVgK7mc7b2vKvMZ4kr3W-11">
+          <mxGeometry x="20" y="100" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=90.07;exitPerimeter=0;entryX=0;entryY=0;entryDx=170;entryDy=140;entryPerimeter=0;" edge="1" parent="1" source="iVgK7mc7b2vKvMZ4kr3W-14" target="iVgK7mc7b2vKvMZ4kr3W-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iVgK7mc7b2vKvMZ4kr3W-24" value="HTTPS port 6531" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="-860" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
