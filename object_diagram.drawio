@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.1.6">
+  <diagram name="Page-1" id="17DKB0htJXBnb-WX_iBM">
+    <mxGraphModel dx="2423" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-1" value="Nick : Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="140" height="80" as="geometry">
+            <mxRectangle x="80" y="80" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-2" value="Am = p21xxx&lt;div&gt;Name = Nick TheGreek&lt;/div&gt;&lt;div&gt;Grades = List&amp;lt;Grade&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-1">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-3" value="Software Technology : Course" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="260" width="190" height="90" as="geometry">
+            <mxRectangle x="80" y="80" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-4" value="Id =&amp;nbsp;04e67eea-0d40-4ad1-b899-744acf0ca124&lt;div&gt;Name = Software Technology&lt;/div&gt;&lt;div&gt;Semester = 6&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-3">
+          <mxGeometry y="26" width="190" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-5" value="NicksSTGrade : Grade" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="180" height="120" as="geometry">
+            <mxRectangle x="80" y="80" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-6" value="Student = Nick&lt;div&gt;Course = Software Technology&lt;/div&gt;&lt;div&gt;Am = p21xxx&lt;/div&gt;&lt;div&gt;CourseId = 04e67eea-0d40-4ad1-b899-744acf0ca124&lt;/div&gt;&lt;div&gt;Value = 9&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-5">
+          <mxGeometry y="26" width="180" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.468;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.152;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TFHFOIj9tjhnoZoXByAP-2" target="TFHFOIj9tjhnoZoXByAP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="280" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186" y="450" />
+              <mxPoint x="230" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.484;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.301;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TFHFOIj9tjhnoZoXByAP-4" target="TFHFOIj9tjhnoZoXByAP-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="300" as="sourcePoint" />
+            <mxPoint x="420" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="562" y="463" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-9" value="NickDto : StudentDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="882" y="260" width="160" height="80" as="geometry">
+            <mxRectangle x="80" y="80" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-10" value="&lt;div&gt;Fullname = Nick TheGreek&lt;br&gt;&lt;/div&gt;&lt;div&gt;Am = p21xxx&lt;/div&gt;&lt;div&gt;Average = 7.89&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-9">
+          <mxGeometry y="26" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-11" value="NicksGradesDto : StudentGradesDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1062" y="460" width="240" height="70" as="geometry">
+            <mxRectangle x="80" y="80" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-12" value="&lt;div&gt;Student = NickDto&lt;/div&gt;&lt;div&gt;Grades = IEnumerable&amp;lt;StudentGradeDto&amp;gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-11">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-13" value="NicksSTGradeDto: StudentGradeDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="250" width="228" height="110" as="geometry">
+            <mxRectangle x="80" y="80" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-14" value="&lt;div&gt;CourseId = 04e67eea-0d40-4ad1-b899-744acf0ca124&lt;/div&gt;&lt;div&gt;Name = Software Technology&lt;/div&gt;&lt;div&gt;Semester = 6&lt;/div&gt;&lt;div&gt;Grade = 9&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-13">
+          <mxGeometry y="26" width="228" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-15" value=": StudentService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="700" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-16" value="_context = uniLettersDbContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-15">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-17" value=": LettersService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="700" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="TFHFOIj9tjhnoZoXByAP-18" value="Styles = new Dictionary&amp;lt;int, Func&amp;lt;IContainer, Container&amp;gt;&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="TFHFOIj9tjhnoZoXByAP-17">
+          <mxGeometry y="26" width="330" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
